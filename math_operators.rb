@@ -18,5 +18,7 @@ class MathOperators
   end
 
   MathOperators.new.operating_numbers
-  exec("ruby variable_names.rb ")
+  puts "-"*25 + "\n" + "Now, Can we run next program(y/n)?"
+
+  exec("ruby variable_names.rb ") if gets.chomp == 'y' || 'yes'
 end

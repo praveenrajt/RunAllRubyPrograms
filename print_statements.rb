@@ -20,5 +20,7 @@ class PrintStatements
     # puts "This is last line"
   end
   self.print_all_statements
-  exec("ruby pound_statements.rb ")
+  puts "-"*25 + "\n" + "Now, Can we run next program(y/n)?"
+
+  exec("ruby pound_statements.rb ") if gets.chomp == 'y' || 'yes'
 end

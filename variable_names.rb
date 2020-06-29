@@ -16,5 +16,7 @@ class VariableNames
     puts "due to it is not initialize the that variable"
   end
   VariableNames.new.get_details
-  exec("ruby variables_printing.rb")
+  puts "-"*25 + "\n" + "Now, Can we run next program(y/n)?"
+
+  exec("ruby variables_printing.rb") if gets.chomp == 'y' || 'yes'
 end

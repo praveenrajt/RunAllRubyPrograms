@@ -27,6 +27,8 @@ class VariablesString
   puts "Explain why adding the two strings w and e with + makes a longer string?"
   puts 'This the is called by String Concatenation. It means joining two or more strings together to create a new string'
 
-  exec("ruby more_printing.rb ")
+  puts "-"*25 + "\n" + "Now, Can we run next program(y/n)?"
+
+  exec("ruby more_printing.rb ") if gets.chomp == 'y' || 'yes'
 
 end

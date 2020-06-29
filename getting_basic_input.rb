@@ -7,5 +7,7 @@ class GettingBasicInput
   age = gets.chomp
   puts "Your full name is #{first_name} #{last_name} and your age is #{age}"
 
-  exec("ruby getting_numeric_inputs.rb")
+  puts "-"*25 + "\n" + "Now, Can we run next program(y/n)?"
+
+  exec("ruby getting_numeric_inputs.rb") if gets.chomp == 'y' || 'yes'
 end
