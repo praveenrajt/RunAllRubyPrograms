@@ -20,7 +20,7 @@ STEP-02 :: Change directory to project location
 
 STEP-03 :: Run the project
 
-`ruby run_all_programs.rb`
+`ruby run_all_ruby_programs.rb`
 
 STEP-04 :: Optional step, you can execute programs individually
 
