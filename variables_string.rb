@@ -29,6 +29,6 @@ class VariablesString
 
   puts "-"*25 + "\n" + "Now, Can we run next program(y/n)?"
 
-  exec("ruby more_printing.rb ") if gets.chomp == 'y' || 'yes'
+  exec("ruby more_printing.rb ") if gets.chomp == 'y'
 
 end

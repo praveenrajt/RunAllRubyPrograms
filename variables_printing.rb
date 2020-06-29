@@ -21,5 +21,5 @@ class VariablesPrinting
   puts "#{weight} pound is equal to #{weight * 0.453592} "
   puts "-"*25 + "\n" + "Now, Can we run next program(y/n)?"
 
-  exec("ruby variables_string.rb") if gets.chomp == 'y' || 'yes'
+  exec("ruby variables_string.rb") if gets.chomp == 'y'
 end

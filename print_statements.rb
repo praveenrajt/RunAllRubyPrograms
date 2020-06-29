@@ -22,5 +22,5 @@ class PrintStatements
   self.print_all_statements
   puts "-"*25 + "\n" + "Now, Can we run next program(y/n)?"
 
-  exec("ruby pound_statements.rb ") if gets.chomp == 'y' || 'yes'
+    exec("ruby pound_statements.rb ") if gets.chomp.to_s == "y"
 end

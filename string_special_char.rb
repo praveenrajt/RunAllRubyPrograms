@@ -10,5 +10,5 @@ class StringSpecialChar
   puts list
   puts "-"*25 + "\n" + "Now, Can we run next program(y/n)?"
 
-  exec("ruby getting_basic_input.rb") if gets.chomp == 'y' || 'yes'
+  exec("ruby getting_basic_input.rb") if gets.chomp == 'y'
 end

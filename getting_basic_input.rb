@@ -9,5 +9,5 @@ class GettingBasicInput
 
   puts "-"*25 + "\n" + "Now, Can we run next program(y/n)?"
 
-  exec("ruby getting_numeric_inputs.rb") if gets.chomp == 'y' || 'yes'
+  exec("ruby getting_numeric_inputs.rb") if gets.chomp == 'y'
 end

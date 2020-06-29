@@ -7,7 +7,9 @@ class PrintingPrintingPrinting
   puts "Here are the months: #{months}"
 
   puts "-"*25 + "\n" + "Now, Can we run next program(y/n)?"
-
-  exec("ruby string_special_char.rb") if gets.chomp == 'y' || 'yes'
+  result = gets.chomp
+  if result == 'y' || 'yes'
+    exec("ruby string_special_char.rb")
+  end
 
 end

@@ -10,5 +10,5 @@ class MorePrinting
   puts "puts key word give the new line to end of the last word in that line"
   puts "-"*25 + "\n" + "Now, Can we run next program(y/n)?"
 
-  exec("ruby printing_printing_printing.rb ") if gets.chomp == 'y' || 'yes'
+  exec("ruby printing_printing_printing.rb ") if gets.chomp == 'y'
 end

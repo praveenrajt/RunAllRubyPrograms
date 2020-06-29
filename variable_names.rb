@@ -18,5 +18,5 @@ class VariableNames
   VariableNames.new.get_details
   puts "-"*25 + "\n" + "Now, Can we run next program(y/n)?"
 
-  exec("ruby variables_printing.rb") if gets.chomp == 'y' || 'yes'
+  exec("ruby variables_printing.rb") if gets.chomp == 'y'
 end
