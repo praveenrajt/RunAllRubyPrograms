@@ -9,21 +9,25 @@ Ruby Version 2.6.3
 
 ### Project steps
 
-* **STEP-01 :: Clone the project from github** *
+**STEP-01 :: Clone the project from github**
 
 `git clone https://github.com/praveenrajt/RunAllRubyPrograms.git`
 
-* **STEP-02 :: Change directory to project location** *
+**STEP-02 :: Change directory to project location**
 
 `cd RunAllRubyPrograms`
 
-* **STEP-03 :: Run the project** *
+**STEP-03 :: Run the project**
 
 `ruby run_all_ruby_programs.rb`
 
-* **STEP-04 :: Optional step, you can execute programs individually** *
+**STEP-04 :: Optional step, you can execute programs individually**
 
 `ruby filename.rb`
+
+## Output Screenshots 
+
+Screenshots are available in the `screenshots/` directory
 
 ## Version
 
