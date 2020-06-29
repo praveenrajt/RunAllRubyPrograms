@@ -9,7 +9,7 @@ Ruby Version 2.6.3
 
 ### Project steps
 
-* **STEP-01 :: Clone the project from github**
+* **STEP-01 :: Clone the project from github** *
 
 `git clone https://github.com/praveenrajt/RunAllRubyPrograms.git`
 
